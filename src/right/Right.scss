@@ -1,0 +1,20 @@
+.right{
+    position: sticky;
+    top: 0;
+    &__input{
+        position: sticky;
+background: #EFF3F4;
+border-radius: 31px;  
+border: none;   
+padding: 15px 64px;
+max-width: 373px;
+width: 100%;
+outline: none;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #5C6C79;
+
+    }
+}

@@ -14,7 +14,7 @@ import './LeftSahifa.scss';
 const LeftSahifa = () => {
     return (
         <div className=" nav">
-            <navbar className="d-flex  flex-column">
+            <div className="d-flex  flex-column">
                 <NavLink className='pb-4 pt-3'>
                     <img src={img5} alt="logo" />
                 </NavLink>
@@ -68,7 +68,7 @@ const LeftSahifa = () => {
                 <img className="d-block" src={img10} alt="malumotlar" />
             </div>
                 </NavLink>
-            </navbar>
+            </div>
            
         </div>
 

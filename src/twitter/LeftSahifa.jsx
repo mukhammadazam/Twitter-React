@@ -59,7 +59,7 @@ const LeftSahifa = () => {
                     <button className="wrapper__btn">Tweet</button>
                 </NavLink>
                 <NavLink className='text-decoration-none'>
-                <div className="pro d-flex align-items-center justiify-content-center">
+                <div className="pro pt-5 d-flex align-items-center justiify-content-center">
                 <img className="img" src={img1} alt="bobur" />
                 <div className="wrapper__enner">
                     <h6 className="m-0 wrapper__title">Bobur</h6>

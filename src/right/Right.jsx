@@ -1,7 +1,7 @@
 import septings from './imgs/settings.svg';
-// import bola from './imges/bobur-ukasi.svg';
-// import mushtariy from './imges/mushtariy.svg';
-// import search from './imges/search.svg';
+import bola from './imgs/bobur-ukasi.svg';
+import mushtariy from './imgs/mushtariy.svg';
+// import search from './imgs/search.svg';
 import uchnuqta from '../twitter/images/uchnuqta.svg';
 import './Right.scss';
 const Right = () => {
@@ -45,7 +45,23 @@ const Right = () => {
     <h4 className="right__bottom--title">
     You might like
     </h4>
-    
+    <div className=" d-flex align-items-center ">
+                <img className="" src={mushtariy} alt="bobur" />
+                <div className="follow1">
+                    <p className="m-0 wrapper__title">Mushtariy</p>
+                    <p className="wrapper__text m-0"> @@Mushtar565266 </p>
+                </div>
+                <button className="right__bottom--btn">Follow</button>
+            </div>
+            <div className=" pt-3 d-flex align-items-center ">
+                <img className="" src={bola} alt="bobur" />
+                <div className="follow">
+                    <p className="m-0 wrapper__title">Shuhratbek</p>
+                    <p className="wrapper__text m-0"> @mrshukhrat </p>
+                </div>
+                <button className="right__bottom--btn">Follow</button>
+            </div>
+<button className="right__bottom--btn1">Show more</button>
 </div>
     </div>
   )

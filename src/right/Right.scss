@@ -73,13 +73,47 @@ color: #1DA1F2;
         }
     }
     &__bottom{
+        background: #F7F9F9;
+        border-radius: 10px;
+        padding: 0 15px;
         &--title{
-padding-top: 50px;
+padding-top: 30px;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 32px;
+padding-bottom: 15px;
 color: #000000;
+
+        }
+        &--btn{
+            padding: 10px 18px;
+            background: #000000;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 100%;
+            color: #FFFFFF;
+            border-radius: 50px;
+border: none;
+        }
+        .follow1{
+            padding-left: 13px;
+            padding-right: 36px;
+        }
+        .follow{
+            padding-left: 13px;
+            padding-right: 78px;
+        }
+        &--btn1{
+            border: none;
+            font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+padding-top: 20px;
+color: #1DA1F2;
+background: transparent;
 
         }
     }

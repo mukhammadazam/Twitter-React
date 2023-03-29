@@ -1,6 +1,15 @@
 .nav{
- position: sticky;   
- top: 0;
+   position: sticky;
+    top: 0;
+height: 100vh;
+
+    z-index: 11;   
+ padding-right: 20px;
+ border-right: 1px solid #d8d8d8;
+ &__enner{
+     box-sizing: border-box;
+    margin-left: 20px;
+ }
     .leni{
         font-style: normal;
     font-weight: 600;
@@ -8,6 +17,18 @@
     line-height: 24px;
     color: #000000;
     padding-left: 24px;
+    }
+    .activ{
+transform: scale(1.2);
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+    }
+    .imgactiv{
+        transform: scale(1.2);
+    }
+    .imgactiv1{
+        transform: scale(1.2);
     }
     .wrapper{
         &__btn{
@@ -28,6 +49,7 @@ font-size: 16px;
 line-height: 21px;
 color: #000000;
         }
+       
         &__text{
             font-style: normal;
 font-weight: 400;
@@ -42,4 +64,15 @@ opacity: 0.6;
         }
     }
 
+}
+
+@media screen and (max-width:1200px){
+    .leni{
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .nav{
+        display: none;
+    }
 }

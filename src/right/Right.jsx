@@ -6,7 +6,7 @@ import uchnuqta from '../twitter/images/uchnuqta.svg';
 import './Right.scss';
 const Right = () => {
   return (
-    <div className="right">
+    <div className="right flex-1">
 <input type="text" placeholder="Search Twitter" className="right__input" />
 <div className="right__enner">
     <div className=" p-0 m-0 d-flex align-items-center ">

@@ -1,6 +1,8 @@
 .right{
-    position: sticky;
+position: sticky;
+height: 100vh;
     top: 0;
+    border-left: 1px solid #d8d8d8;
     &__input{
         position: sticky;
 background: #EFF3F4;
@@ -116,5 +118,10 @@ color: #1DA1F2;
 background: transparent;
 
         }
+    }
+}
+@media screen and (max-width:1040px){
+    .right{
+        display: none;
     }
 }

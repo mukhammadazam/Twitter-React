@@ -1,0 +1,73 @@
+import './hom.scss';
+const Home = () => {
+  return (
+    <div className=" hom flex-2">
+        <p>sfderge</p>
+        <p>sfdergebvbnbvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvnbbbbbbbbb</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+        <p>sfderge</p>
+    </div>
+  )
+}
+
+export default Home

@@ -16,7 +16,8 @@ import btn from './images/ur.png';
 import './LeftSahifa.scss';
 const LeftSahifa = () => {
     const {counter,funCount,funCount1,counter1,funCount2,counter2,funCount3,counter3,
-    funCount4,counter4}=useContext(MyContext);
+    funCount4,counter4,counter5,funCount5,counter6,funCount6,
+    counter7,funCount7}=useContext(MyContext);
     return (
         <div className=" nav flex-1">
             <div className="d-flex  nav_enner flex-column">
@@ -46,19 +47,19 @@ const LeftSahifa = () => {
                     <span className={`leni ${counter4 ? 'activ' : 'leni'} `}>Bookmarks</span>
                 </NavLink>
                 
-                <NavLink onClick={funCount} className='wrapper text-decoration-none pb-4'>
-                    <img className="img-svg" src={img2} alt="logo" />
-                    <span className="leni">Lists</span>
+                <NavLink onClick={funCount5} className='wrapper text-decoration-none pb-4'>
+                    <img className={`img-svg ${counter5 ? 'imgactiv1' : 'img-svg'}`} src={img2} alt="logo" />
+                    <span className={`leni ${counter5 ? 'activ' : 'leni'} `}>Lists</span>
                 </NavLink>
                 
-                <NavLink onClick={funCount} className='wrapper text-decoration-none pb-4'>
-                    <img className="img-svg" src={img7} alt="logo" />
-                    <span className="leni">Profile</span>
+                <NavLink onClick={funCount6} className='wrapper text-decoration-none pb-4'>
+                    <img className={`img-svg ${counter6 ? 'imgactiv1' : 'img-svg'}`} src={img7} alt="logo" />
+                    <span className={`leni ${counter6 ? 'activ' : 'leni'} `}>Profile</span>
                 </NavLink>
                 
-                <NavLink onClick={funCount} className='wrapper text-decoration-none pb-4'>
-                    <img className="img-svg" src={img6} alt="logo" />
-                    <span className="leni">More</span>
+                <NavLink onClick={funCount7} className='wrapper text-decoration-none pb-4'>
+                    <img className={`img-svg ${counter7 ? 'imgactiv1' : 'img-svg'}`} src={img6} alt="logo" />
+                    <span className={`leni ${counter7 ? 'activ' : 'leni'} `}>More</span>
                 </NavLink>
                 <NavLink className='wrapper text-decoration-none pb-4'>
                     <button className="wrapper__btn d-none d-xl-block">Tweet  </button>

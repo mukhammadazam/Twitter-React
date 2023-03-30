@@ -2,70 +2,12 @@ import './hom.scss';
 const Home = () => {
   return (
     <div className=" hom flex-2">
-        <p>sfderge</p>
-        <p>sfdergebvbnbvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvnbbbbbbbbb</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
-        <p>sfderge</p>
+        <div className="hom__button ">
+        <button className="hom__button--btn">For you</button>
+        <button className="hom__button--btn1">Following</button>
+
+        </div>
+        
     </div>
   )
 }

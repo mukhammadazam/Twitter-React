@@ -1,3 +1,5 @@
+import {MyContext } from '../context/Context';
+import {useContext} from 'react'
 import septings from './imgs/settings.svg';
 import bola from './imgs/bobur-ukasi.svg';
 import mushtariy from './imgs/mushtariy.svg';
@@ -5,6 +7,7 @@ import mushtariy from './imgs/mushtariy.svg';
 import uchnuqta from '../twitter/images/uchnuqta.svg';
 import './Right.scss';
 const Right = () => {
+    const {counter8,funCount8,counter9,funCount9}=useContext(MyContext);
   return (
     <div className="right flex-1">
 <input type="text" placeholder="Search Twitter" className="right__input" />
@@ -51,7 +54,8 @@ const Right = () => {
                     <p className="m-0 wrapper__title">Mushtariy</p>
                     <p className="wrapper__text m-0"> @@Mushtar565266 </p>
                 </div>
-                <button className="right__bottom--btn">Follow</button>
+                <button onClick={funCount8} className={`right__bottom--btn ${counter8 ? 'd-block' : 'd-none'}`}>Follow</button>
+                <button onClick={funCount8} className={`right__bottom--btn position-absolute end-0 ${counter8 ? 'd-none' : 'd-block right__bottom--btn--bg'}`}>Following</button>
             </div>
             <div className=" pt-3 d-flex align-items-center ">
                 <img className="" src={bola} alt="bobur" />
@@ -59,7 +63,8 @@ const Right = () => {
                     <p className="m-0 wrapper__title">Shuhratbek</p>
                     <p className="wrapper__text m-0"> @mrshukhrat </p>
                 </div>
-                <button className="right__bottom--btn">Follow</button>
+                <button onClick={funCount9} className={`right__bottom--btn ${counter9 ? 'd-block ' : 'd-none btn--bg'}`}>Follow</button>
+                <button onClick={funCount9}  className={`right__bottom--btn position-absolute end-0 ${counter9 ? 'd-none ' : 'd-block right__bottom--btn--bg'}`}>Following</button>
             </div>
 <button className="right__bottom--btn1">Show more</button>
 </div>

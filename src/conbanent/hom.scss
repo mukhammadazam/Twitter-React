@@ -1,3 +1,41 @@
 .hom{
+&__button{
+    position: sticky;
+    top: 0;
+    height: 10px;
+ width: 600px}
+ &__button--btn{
+        border: none;
+        background-color: #ddd;
+        padding: 20px 0;
+        width: 50%;
+        filter: blur(1px);
+        opacity: 0.7;
+           &:active{
+            filter: blur(0);
+            opacity: 1;
+            color: #7c7272;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           
+        }
+
+    }
+    &__button--btn1{
+        border: none;
+        background-color: #ddd;
+        padding: 20px 0;
+        width: 50%;
+        filter: blur(1px);
+        opacity: 0.7;
+        &:active{
+            filter: blur(0);
+            opacity: 1;
+            color: #7c7272;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+           
+        }
+    }
 
 }

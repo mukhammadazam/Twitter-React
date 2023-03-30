@@ -66,6 +66,7 @@ const Right = () => {
                 <button onClick={funCount9} className={`right__bottom--btn ${counter9 ? 'd-block ' : 'd-none btn--bg'}`}>Follow</button>
                 <button onClick={funCount9}  className={`right__bottom--btn position-absolute end-0 ${counter9 ? 'd-none ' : 'd-block right__bottom--btn--bg'}`}>Following</button>
             </div>
+            
 <button className="right__bottom--btn1">Show more</button>
 </div>
     </div>

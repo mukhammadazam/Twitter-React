@@ -24,7 +24,7 @@ const LeftSahifa = () => {
                 <NavLink className='pb-4 pt-3'>
                     <img src={img5} alt="logo" />
                 </NavLink>
-                <NavLink onClick={funCount1}  className={`  wrapper text-decoration-none pb-4`}>
+                <NavLink to='/' onClick={funCount1}  className={`  wrapper text-decoration-none pb-4`}>
                     <img className={`img-svg ${counter1 ? 'imgactiv' : 'img-svg'}`} src={img11} alt="logo" />
                     <span  className={`leni ${counter1 ? 'activ' : 'leni'} `}>Home</span>
                 </NavLink>

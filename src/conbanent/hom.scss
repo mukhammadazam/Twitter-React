@@ -3,7 +3,9 @@
     position: sticky;
     top: 0;
     height: 10px;
- width: 600px}
+    width: 650px;
+
+}
  &__button--btn{
         border: none;
         background-color: #ddd;
@@ -38,4 +40,11 @@
         }
     }
 
+}
+@media screen and (max-width:1250px){
+    .hom{
+        &__button{
+            width: 100%;
+        }
+    }
 }

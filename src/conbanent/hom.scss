@@ -5,7 +5,11 @@
     top: 0;
     height: 10px;
     width: 650px;
-  
+  &--title{
+font-size: 24px;
+padding-left: 20px;
+
+  }
 }
  &__button--btn{
         border: none;
@@ -39,6 +43,7 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
            
         }
+    
     }
 .row__enner{
     max-width: 650px;

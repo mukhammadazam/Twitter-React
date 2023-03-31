@@ -18,19 +18,17 @@ height: 100vh;
     color: #000000;
     padding-left: 24px;
     }
-    .activ{
-transform: scale(1.2);
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-    }
-    .imgactiv{
-        transform: scale(1.2);
-    }
-    .imgactiv1{
-        transform: scale(1.2);
-    }
+ 
+   
     .wrapper{
+        position: relative;
+        &--border{
+            &:hover{
+position: sticky;
+                padding: 5px 10px;
+                border: 1px solid red;
+            }
+        }
         &__btn{
     background: #1D9BF0;
     border-radius: 27.5px;
@@ -41,6 +39,7 @@ line-height: 24px;
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
+    
         }
         &__title{
             font-style: normal;

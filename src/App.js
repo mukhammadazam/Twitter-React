@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Right from './right/Right';
 import Home from './conbanent/Home';
 import Explore from './explore/Explore';
+import './App.css'
 function App() {
   return (
     <div className='container pt-3 d-flex justify-content-lg-between'>

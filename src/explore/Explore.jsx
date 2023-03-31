@@ -1,7 +1,11 @@
-
+import { useContext } from "react"
+import { FetchContext } from "../context/FitchConbonet"
 const Explore = () => {
+const {data}=useContext(FetchContext);
   return (
-    <div>Explore</div>
+    <div>
+      {console.log(data)}
+    </div>
   )
 }
 

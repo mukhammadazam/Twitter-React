@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <div className=" hom flex-2">
         <div className="hom__button ">
-        <button className="hom__button--btn">For you</button>
+      <h1 className='hom__button--title '>Home</h1>
+        <button className="hom__button--btn hom__button--bbttnn">For you</button>
         <button className="hom__button--btn1">Following</button>
         
         </div>

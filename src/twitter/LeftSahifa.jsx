@@ -29,37 +29,41 @@ const LeftSahifa = () => {
                     <span  className={`leni ${counter1 ? 'activ' : 'leni'} `}>Home</span>
                 </NavLink>
                 <NavLink to='/Explore' onClick={funCount}  className='wrapper text-decoration-none pb-4'>
-                    <img  className={`img-svg ${counter ? 'imgactiv1' : 'img-svg'}`} src={img3} alt="logo" />
+                   <div className="wrapper--border">
+                   <img  className={`img-svg ${counter ? 'imgactiv1' : 'img-svg'}`} src={img3} alt="logo" />
                     <span  className={`leni ${counter ? 'activ' : 'leni'} `}>Explore</span>
+                   </div>
                 </NavLink>
 
                 <NavLink onClick={funCount2}  className='wrapper text-decoration-none pb-4'>
-                    <img className={`img-svg ${counter2 ? 'imgactiv1' : 'img-svg'}`} src={img8} alt="logo" />
+                   <div className="wrapper--border">
+                   <img className={`img-svg ${counter2 ? 'imgactiv1' : 'img-svg'}`} src={img8} alt="logo" />
                     <span onClick={funCount2} className={`leni ${counter2 ? 'activ' : 'leni'} `}>Notifications</span>
+                   </div>
                 </NavLink>
                 <NavLink onClick={funCount3} className='wrapper text-decoration-none pb-4'>
-                    <img className={`img-svg ${counter3 ? 'imgactiv1' : 'img-svg'}`} src={img9} alt="logo" />
-                    <span className={`leni ${counter3 ? 'activ' : 'leni'} `}>Messages</span>
+                    <div className="wrapper--border"><img className={`img-svg ${counter3 ? 'imgactiv1' : 'img-svg'}`} src={img9} alt="logo" />
+                    <span className={`leni ${counter3 ? 'activ' : 'leni'} `}>Messages</span></div>
                 </NavLink>
 
                 <NavLink onClick={funCount4} className='wrapper text-decoration-none pb-4'>
-                    <img className={`img-svg ${counter4 ? 'imgactiv1' : 'img-svg'}`} src={img2} alt="logo" />
-                    <span className={`leni ${counter4 ? 'activ' : 'leni'} `}>Bookmarks</span>
+                    <div className="wrapper--border"><img className={`img-svg ${counter4 ? 'imgactiv1' : 'img-svg'}`} src={img2} alt="logo" />
+                    <span className={`leni ${counter4 ? 'activ' : 'leni'} `}>Bookmarks</span></div>
                 </NavLink>
                 
                 <NavLink onClick={funCount5} className='wrapper text-decoration-none pb-4'>
-                    <img className={`img-svg ${counter5 ? 'imgactiv1' : 'img-svg'}`} src={img4} alt="logo" />
-                    <span className={`leni ${counter5 ? 'activ' : 'leni'} `}>Lists</span>
+                    <div className="wrapper--border"><img className={`img-svg ${counter5 ? 'imgactiv1' : 'img-svg'}`} src={img4} alt="logo" />
+                    <span className={`leni ${counter5 ? 'activ' : 'leni'} `}>Lists</span></div>
                 </NavLink>
                 
                 <NavLink onClick={funCount6} className='wrapper text-decoration-none pb-4'>
-                    <img className={`img-svg ${counter6 ? 'imgactiv1' : 'img-svg'}`} src={img7} alt="logo" />
-                    <span className={`leni ${counter6 ? 'activ' : 'leni'} `}>Profile</span>
+                    <div className="wrapper--border"><img className={`img-svg ${counter6 ? 'imgactiv1' : 'img-svg'}`} src={img7} alt="logo" />
+                    <span className={`leni ${counter6 ? 'activ' : 'leni'} `}>Profile</span></div>
                 </NavLink>
                 
                 <NavLink onClick={funCount7} className='wrapper text-decoration-none pb-4'>
-                    <img className={`img-svg ${counter7 ? 'imgactiv1' : 'img-svg'}`} src={img6} alt="logo" />
-                    <span className={`leni ${counter7 ? 'activ' : 'leni'} `}>More</span>
+                    <div className="wrapper--border"><img className={`img-svg ${counter7 ? 'imgactiv1' : 'img-svg'}`} src={img6} alt="logo" />
+                    <span className={`leni ${counter7 ? 'activ' : 'leni'} `}>More</span></div>
                 </NavLink>
                 <NavLink className='wrapper text-decoration-none pb-4'>
                     <button className="wrapper__btn d-none d-xl-block">Tweet  </button>

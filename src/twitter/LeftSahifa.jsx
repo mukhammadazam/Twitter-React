@@ -22,8 +22,8 @@ const LeftSahifa = () => {
         <div className=" nav flex-1">
             <div className="d-flex   nav_enner flex-column">
                 <NavLink className='pb-4  pt-3'>
-<div className="logo">
-<img className='' src={img5} alt="logo" />
+<div className="logo d-flex justify-content-start">
+<img className='logo-enner' src={img5} alt="logo" width='35px' height="30px" />
 
 </div>
                 </NavLink>

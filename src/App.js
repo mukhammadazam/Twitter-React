@@ -25,7 +25,10 @@ function App() {
       <Route path='/More' element={<More/>}/>
         <Route path='*'  element={ <Navigate to='/' />}  />
       </Routes>
-      <Right/>
+
+      {true ? <Right/> : <More/>}
+      
+      
     </div>
 
   );

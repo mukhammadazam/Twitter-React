@@ -1,0 +1,23 @@
+.bg{
+    background-color: #bbb8b8;
+    filter: blur(1px);
+    height: 80px;
+    max-width: 650px;
+    width: 100%;
+}
+.noti{
+    display: flex;
+
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    &__btnAll{
+border: none;
+    }
+    &__btnVerified{
+border: none;
+}
+&__btnMentions{
+    border: none;
+}
+}

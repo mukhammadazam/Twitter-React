@@ -1,10 +1,11 @@
 .hom{
+    
 &__button{
     position: sticky;
     top: 0;
     height: 10px;
     width: 650px;
-
+  
 }
  &__button--btn{
         border: none;
@@ -39,7 +40,25 @@
            
         }
     }
+.row__enner{
+    max-width: 650px;
+    width: 100%;
+    display: block;
+    .img1{
+       display: block;
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
 
+    }
+ 
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
 }
 @media screen and (max-width:1250px){
     .hom{

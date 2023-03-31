@@ -1,15 +1,16 @@
 import LeftSahifa from './twitter/LeftSahifa';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Right from './right/Right';
 import Home from './conbanent/Home';
-import FitchConbonet from './context/FitchConbonet';
+import Explore from './explore/Explore';
 function App() {
   return (
     <div className='container pt-3 d-flex justify-content-lg-between'>
       <LeftSahifa />
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='a' element={<FitchConbonet/>} />
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Explore' element={<Explore/>}/>
+        <Route path='*'  element={ <Navigate to='/' />}  />
       </Routes>
       <Right/>
     </div>

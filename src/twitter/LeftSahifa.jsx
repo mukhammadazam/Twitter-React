@@ -24,11 +24,11 @@ const LeftSahifa = () => {
                 <NavLink className='pb-4 pt-3'>
                     <img src={img5} alt="logo" />
                 </NavLink>
-                <NavLink to='/' onClick={funCount1}  className={`  wrapper text-decoration-none pb-4`}>
+                <NavLink to='/'  onClick={funCount1}  className={`  wrapper text-decoration-none pb-4`}>
                     <img className={`img-svg ${counter1 ? 'imgactiv' : 'img-svg'}`} src={img11} alt="logo" />
                     <span  className={`leni ${counter1 ? 'activ' : 'leni'} `}>Home</span>
                 </NavLink>
-                <NavLink onClick={funCount}  className='wrapper text-decoration-none pb-4'>
+                <NavLink to='/Explore' onClick={funCount}  className='wrapper text-decoration-none pb-4'>
                     <img  className={`img-svg ${counter ? 'imgactiv1' : 'img-svg'}`} src={img3} alt="logo" />
                     <span  className={`leni ${counter ? 'activ' : 'leni'} `}>Explore</span>
                 </NavLink>
@@ -48,7 +48,7 @@ const LeftSahifa = () => {
                 </NavLink>
                 
                 <NavLink onClick={funCount5} className='wrapper text-decoration-none pb-4'>
-                    <img className={`img-svg ${counter5 ? 'imgactiv1' : 'img-svg'}`} src={img2} alt="logo" />
+                    <img className={`img-svg ${counter5 ? 'imgactiv1' : 'img-svg'}`} src={img4} alt="logo" />
                     <span className={`leni ${counter5 ? 'activ' : 'leni'} `}>Lists</span>
                 </NavLink>
                 

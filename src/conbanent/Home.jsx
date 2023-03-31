@@ -11,10 +11,10 @@ const Home = () => {
         <button className="hom__button--btn1">Following</button>
         
         </div>
-        <div className="row row__enner">
+        <div className="row justify-content-center ps-0 ps-sm-3 ps-sm-0 row__enner">
           {
             data.map((el)=>(
-              <div className="col pb-5 row__enner">
+              <div className="col pb-5 row__enner justify-content-center ">
                 <img className='img1' src={el.urlToImage} alt={el.author}  />
                 <div className="d-flex align-items-start pt-3 px-3 ">
                 <img className='img' src={el.urlToImage} alt={el.author} />
@@ -23,10 +23,8 @@ const Home = () => {
                 <p className="row__enner--text">{el.description}</p>
                 </div>
                 </div>
-{
-                console.log(el)
 
-}
+              
               </div>
             ))
           }

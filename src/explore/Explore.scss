@@ -1,0 +1,19 @@
+.input{
+    outline: none;
+    position: sticky;
+    top: 0;
+background: #EFF3F4;
+border-radius: 31px;  
+border: none;  
+padding: 15px 64px;
+color: #5C6C79;
+}
+.link-img{
+    padding: 10px 5px;
+
+    &:hover{
+        background-color: #a09d9d;
+    padding: 10px 5px;
+    border-radius: 50%;
+    }
+}

@@ -2,7 +2,7 @@ import { useContext, useState } from "react"
 import { FetchContext } from "../context/FitchConbonet"
 import uchnuqta from './img/uchnuqta.svg';
 import './Explore.scss';
-import {Link, link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 const Explore = () => {
   const [search,setSearch]=useState('')
 const {data}=useContext(FetchContext);

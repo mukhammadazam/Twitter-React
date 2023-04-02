@@ -54,10 +54,10 @@ const Right = () => {
                         <p className="m-0 wrapper__title">Mushtariy</p>
                         <p className="wrapper__text m-0"> @@Mushtar565266 </p>
                     </div>
-                    <button onClick={funCount8} className={`right__bottom--btn ${counter8 ? 'd-block' : 'd-none'}`}>Follow</button>
-                    <button onClick={funCount8} className={`right__bottom--btn position-absolute end-0 ${counter8 ? 'd-none' : 'd-block right__bottom--btn--bg'}`}>Following</button>
+                    <button onClick={funCount8} className={`d-block right__bottom--btn ${counter8 ? 'd-block' : 'd-none'}`}>Follow</button>
+                    <button onClick={funCount8} className={`d-block right__bottom--btn position-absolute end-0 ${counter8 ? 'd-none' : 'd-block right__bottom--btn--bg'}`}>Following</button>
                 </div>
-                <div className=" pt-3 d-flex align-items-center ">
+                <div className=" pt-3 d-flex align-items-center  ">
                     <img className="" src={bola} alt="bobur" />
                     <div className="follow">
                         <p className="m-0 wrapper__title">Shuhratbek</p>

@@ -1,8 +1,11 @@
 
-
+import { Link } from "react-router-dom"
 const Messages = () => {
   return (
-    <div>Messages</div>
+    <div className="pb-5">
+      <h3 className="">Bookmarks</h3>
+      <Link>@MuhammadazamRi5</Link>
+    </div>
   )
 }
 

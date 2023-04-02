@@ -1,0 +1,50 @@
+
+.pr{
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    padding-top: 30px;
+}
+.profil{
+   
+    &__icons{
+        width: 100px;
+        display: block;
+        z-index: 11;
+        position: absolute;
+        left: 0px;
+    }
+    &__param{
+        left: 100px;
+        width: 150px;
+    }
+    
+}
+.bg{
+    padding-top: 20px;
+    max-width: 650px;
+    width: 100%;
+    display: block;
+}
+@media screen and (max-width:1200px) {
+    .profil{
+        &__icons{
+            left: 0px;
+        }
+        &__param{
+            left: 100px;
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .profil{
+        &__icons{
+            left: -0px;
+        }
+        &__param{
+            left: 100px;
+            width: 150px;
+        }
+    }
+   
+}

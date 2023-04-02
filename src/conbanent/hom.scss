@@ -60,6 +60,30 @@ padding-left: 20px;
         border-radius: 10px;
 
     }
+    .icons{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    &__sms{
+        color: #383535;
+    }
+    &__retvet{
+        color: #9e9898;
+
+    }
+    &__like{
+        color: #1f1d1d ;
+    }
+    &__statestika{
+        color: #9e9898;
+
+    }
+    &__post{
+        color: #9e9898;
+
+    }
+    }
  
 }
 .img{
@@ -68,6 +92,7 @@ padding-left: 20px;
     border-radius: 50%;
 }
 }
+
 @media screen and (max-width:1250px){
     .hom{
         &__button{

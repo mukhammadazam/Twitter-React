@@ -4,6 +4,9 @@ import { FetchContext } from '../context/FitchConbonet';
 import { Link } from 'react-router-dom';
 import {VscCommentDraft} from 'react-icons/vsc';
 import {TfiExport} from 'react-icons/tfi';
+import {IoMdGitCompare} from 'react-icons/io';
+import {RiDislikeLine} from 'react-icons/ri';
+import {ImStatsBars} from 'react-icons/im';
 const Home = () => {
   const {data} = useContext(FetchContext);
   const [homeTogle,setHomeTogle] =useState('For you')
@@ -30,7 +33,13 @@ const Home = () => {
             data.map((el)=>(
               <div className="col pb-5 row__enner justify-content-center ">
                 <img className='img1' src={el.urlToImage} alt={el.author}  />
-                <VscCommentDraft className='fs-3 bg-transparent'/>
+              <div className=" icons d-flex align-items-center justify-content-between">
+              <Link >  <VscCommentDraft className='fs-3 icons__sms bg-transparent'/></Link>
+              <Link><IoMdGitCompare className='fs-3 icons__retvet' /></Link>
+              <Link><RiDislikeLine className='fs-3  icons__like'/></Link>
+              <Link><ImStatsBars className='fs-3 icons__statestika'/></Link>
+               <Link> <TfiExport className='fs-3 icons__post bg-transparent'/></Link>
+              </div>
                 <div className="d-flex align-items-start pt-3 px-3 ">
                 <img className='img' src={el.urlToImage} alt={el.author} />
                 <div className="ps-2">
@@ -38,8 +47,6 @@ const Home = () => {
                 <p className="row__enner--text">{el.description}</p>
                 </div>
                 </div>
-
-              
               </div>
             ))
           }

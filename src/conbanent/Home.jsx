@@ -2,6 +2,8 @@ import { useContext, useState } from 'react';
 import './hom.scss';
 import { FetchContext } from '../context/FitchConbonet';
 import { Link } from 'react-router-dom';
+import {VscCommentDraft} from 'react-icons/vsc';
+import {TfiExport} from 'react-icons/tfi';
 const Home = () => {
   const {data} = useContext(FetchContext);
   const [homeTogle,setHomeTogle] =useState('For you')
@@ -28,6 +30,7 @@ const Home = () => {
             data.map((el)=>(
               <div className="col pb-5 row__enner justify-content-center ">
                 <img className='img1' src={el.urlToImage} alt={el.author}  />
+                <VscCommentDraft className='fs-3 bg-transparent'/>
                 <div className="d-flex align-items-start pt-3 px-3 ">
                 <img className='img' src={el.urlToImage} alt={el.author} />
                 <div className="ps-2">

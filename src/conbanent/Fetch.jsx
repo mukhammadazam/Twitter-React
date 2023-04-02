@@ -24,7 +24,7 @@ console.log(data)
       </Link>
         
         </div>
-        <div >
+        <div className="fetch-wrapper" >
           {data.map((mal,index)=>(
 <div className="fetch pb-5 d-flex align-items-center justify-content-evenly px-3" key={index}>
 <img className="fetch__img border rounded-pill" src={mal.urlToImage} alt={mal.url} width='70px' height='70px' />
@@ -33,8 +33,8 @@ console.log(data)
 <Link className="m-0 text-decoration-none" target="_blank" to={mal.url.slice(0,50)}>{mal.url.slice(0,40)}</Link>
 </div>
 <button className="fetch__btn border-0">
-  <span>Follow</span>
-  <span className="d-none">Following</span>
+  <span className="fetch__btn--leni">Follow</span>
+  <span className="d-none fetch__btn--leni">Following</span>
 </button>
 </div>
 ))}

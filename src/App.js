@@ -27,8 +27,6 @@ function App() {
       </Routes>
 
       {true ? <Right/> : <More/>}
-      
-      
     </div>
 
   );

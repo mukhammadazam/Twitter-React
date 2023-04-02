@@ -21,18 +21,14 @@ height: 10px;
          padding-top: 50px;
          padding-bottom: 10px;
          border: none;
-         transition: all 2s ease;
 
-         &:hover{
-             color: blue;
-            .leni{
-                width: 80px;
-                margin: 0 auto;
-                border-bottom: 4px solid blue;
-                transition: all 2s ease;
-border-radius: 5px;
-            }
-         }
+         .leni{
+            width: 80px;
+            margin: 0 auto;
+            border-bottom: 4px solid blue;
+            border-radius: 5px;
+
+        }
         }
         
     &__btn3{
@@ -41,18 +37,13 @@ border-radius: 5px;
          padding-top: 50px;
          padding-bottom: 10px;
          border: none;
-         transition: all 2s ease;
-         &:hover{
-             color: blue;
-            .leni{
+         .leni{
+            width: 80px;
+            margin: 0 auto;
+            border-bottom: 4px solid blue;
+            border-radius: 5px;
 
-                width: 80px;
-                margin: 0 auto;
-                border-bottom: 4px solid blue;
-                transition: all 2s ease;
-                border-radius: 5px;
-            }
-         }
+        }
         }
     &__btn4{
         width: 33.3%;
@@ -62,17 +53,13 @@ border-radius: 5px;
          padding-bottom: 10px;
          border: none;
          transition: all 2s ease;
-         
-         &:hover{
-             color: blue;
             .leni{
-                transition: all 2s ease;
                 width: 80px;
                 margin: 0 auto;
                 border-bottom: 4px solid blue;
                 border-radius: 5px;
 
             }
-         }
+         
         }
 }

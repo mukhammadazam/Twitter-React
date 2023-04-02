@@ -1,23 +1,27 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Noti.scss';
 import { FetchContext } from '../context/FitchConbonet';
 const Notifications = (e) => {
 const {data}=useContext(FetchContext);
-console.log(data)
+const [togle,setTogle]=useState('All');
+const togleFun=(e)=>{
+  setTogle(e)
+}
+
 return (
 <div className='d-block'>
 <div className='div'>
     <h1 className='div__title'>Notifications</h1>
 <div className="button d-flex">
-  <button className="d-block  button__btn2">All
-  <span className='d-block leni'></span>
+  <button onClick={()=>setTogle('All')}   className={`d-block  button__btn2 ${togle === 'All' ? 'bg-light' : ''}`}>All
+  <span className={`d-block  ${togle === 'All' ? 'leni' : ''}`}></span>
   </button>
-  <button className="d-block  button__btn3">Verified
-  <span className='d-block leni'></span>
+  <button onClick={()=>setTogle('Verified')}  className={`d-block  button__btn3 ${togle === 'Verified' ? 'bg-light' : ''} `}>Verified
+  <span className={`d-block  ${togle === 'Verified' ? 'leni' : ''}`}></span>
   </button>
-  <button className="d-block  button__btn4">Mentions
-  <span className='d-block leni'></span>
+  <button onClick={()=>setTogle('Mentions')} className={`d-block  button__btn4 ${togle === 'Mentions' ? 'bg-light' : ''}`}>Mentions
+  <span className={`d-block  ${togle === 'Mentions' ? 'leni' : ''}`}></span>
   </button>
 </div>
   </div>

@@ -21,12 +21,7 @@ padding-left: 20px;
         
 
     }
-    .bbt{
-        filter: blur(0.1);
-        opacity: 1;
-        font-size: 18px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+   
     &__button--btn1{
         border: none;
         background-color: #ddd;
@@ -34,6 +29,24 @@ padding-left: 20px;
         width: 50%;
         filter: blur(1px);
         opacity: 0.7;
+    }
+    &__leni{
+        max-width: 80px;
+        width: 100%;
+        z-index: 11;
+        margin: 0 auto;
+        margin-top: 5px;
+        display: block;
+        border: 2px solid transparent;
+    }
+    &__leni1{
+        max-width: 80px;
+        width: 100%;
+        z-index: 11;
+        margin: 0 auto;
+        margin-top: 5px;
+        display: block;
+        border: 2px solid blue;
     }
 .row__enner{
     max-width: 650px;

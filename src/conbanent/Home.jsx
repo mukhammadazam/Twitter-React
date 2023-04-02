@@ -1,7 +1,7 @@
 import { useContext, useState } from 'react';
-
 import './hom.scss';
 import { FetchContext } from '../context/FitchConbonet';
+import { Link } from 'react-router-dom';
 const Home = () => {
   const {data} = useContext(FetchContext);
   const [homeTogle,setHomeTogle] =useState('For you')
@@ -12,8 +12,15 @@ const Home = () => {
     <div className=" hom flex-2">
         <div className="hom__button ">
       <h1 className='hom__button--title '>Home</h1>
-        <button onClick={()=>homeTogleFun('For you')} className={`hom__button--btn hom__button--bbttnn ${homeTogle === 'For you' ? 'bbt' : ''}`}>For you</button>
-        <button  onClick={()=>homeTogleFun('Following')} className={`hom__button--btn1 ${homeTogle === 'Following' ? 'bbt' : ''}`}>Following</button>
+      <Link to='/'> <button onClick={()=>homeTogleFun('For you')} className='hom__button--btn hom__button--bbttnn '>For you
+        <span className={`hom__leni ${homeTogle === 'For you' ? 'hom__leni1' : ''}`}></span>
+        </button></Link>
+      <Link to='/Following'>
+        <button  onClick={()=>homeTogleFun('Following')} className='hom__button--btn1 '>Following
+        <span className={`hom__leni ${homeTogle === 'Following' ? 'hom__leni1' : ''}`}></span>
+        
+        </button>
+      </Link>
         
         </div>
         <div className="row justify-content-center ps-0 ps-sm-3 ps-sm-0 row__enner">

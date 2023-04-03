@@ -11,6 +11,7 @@ import Lists from './Lists/Lists';
 import Profile from './Profile/Profile';
 import More from './More/More';
 import Fetch from './conbanent/Fetch';
+import Followers from './Profile/Followers';
 function App() {
   return (
     <div className='container pt-3 d-flex justify-content-lg-between'>
@@ -24,6 +25,7 @@ function App() {
       <Route path='/Lists' element={<Lists/>}/>
       <Route path='/Profile' element={<Profile/>}/>
       <Route path='/More' element={<More/>}/>
+      <Route path='/follow' element={<Followers/>}/>
       <Route path='/Following' element={<Fetch/>}/>
         <Route path='*'  element={ <Navigate to='/' />}  />
       </Routes>

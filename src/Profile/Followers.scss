@@ -1,0 +1,25 @@
+.Element{
+    &__img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    &__title{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    &__btn{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        color: #2a6964;
+        background-color: #fff;
+        padding: 10px 18px;
+        border: 2px solid rebeccapurple;
+        border-radius: 50px;
+    }
+  
+}
+.input{
+    margin: 0 auto;
+}

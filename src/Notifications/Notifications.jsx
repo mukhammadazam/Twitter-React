@@ -12,8 +12,9 @@ const togleFun=(e)=>{
 return (
 <div className='d-block'>
 <div className='div'>
-    <h1 className='div__title'>Notifications</h1>
-<div className="button d-flex">
+ <div className="bground">
+ <h1 className='div__title'>Notifications</h1>
+<div className="button bg-light d-flex">
   <button onClick={()=>setTogle('All')}   className={`d-block  button__btn2 ${togle === 'All' ? 'bg-light' : ''}`}>All
   <span className={`d-block  ${togle === 'All' ? 'leni' : ''}`}></span>
   </button>
@@ -24,6 +25,7 @@ return (
   <span className={`d-block  ${togle === 'Mentions' ? 'leni' : ''}`}></span>
   </button>
 </div>
+ </div>
   </div>
   <div className="All ps-5 pt-5">
     {

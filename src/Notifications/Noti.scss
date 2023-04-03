@@ -12,8 +12,10 @@ height: 10px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
+.bground{
+    background-color: #efecec;
+}
 .button{
-
     width: 100%;
     &__btn2{
         width: 33.3%;
@@ -63,3 +65,4 @@ height: 10px;
          
         }
 }
+

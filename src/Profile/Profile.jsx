@@ -2,7 +2,6 @@ import {BsArrowLeft} from 'react-icons/bs'
 import {SiGooglemaps} from 'react-icons/si'
 import {MdOutlineDateRange} from 'react-icons/md'
 import {GoKebabHorizontal} from 'react-icons/go'
-
 import {VscCommentDraft} from 'react-icons/vsc';
 import {TfiExport} from 'react-icons/tfi';
 import {IoMdGitCompare} from 'react-icons/io';
@@ -16,7 +15,6 @@ import image from './image.png';
 const Profile = () => {
   return (
     <>
-
       <div className=" pr ">
       <div className="d-flex  align-items-center position-relative profil justify-content-between ">
 <Link to='/' className='pb-3 text-dark'><BsArrowLeft className='fs-3 profil__icons  '/></Link>

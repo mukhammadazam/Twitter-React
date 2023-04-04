@@ -13,6 +13,7 @@ import More from './More/More';
 import Fetch from './conbanent/Fetch';
 import Followers from './Profile/Followers';
 import Following from './Profile/Following';
+import Verified from './Notifications/Verified';
 // import Register from './register/Register';
 // import Login from './Login/Login';
 function App() {
@@ -32,6 +33,8 @@ function App() {
       <Route path='/follow' element={<Followers/>}/>
       <Route path='/Following' element={<Fetch/>}/>
       <Route path='/fol' element={<Following/>}/>
+      <Route path='/not' element={<Notifications/>}/>
+      <Route path='/ver' element={<Verified/>}/>
         <Route path='*'  element={ <Navigate to='/' />}  />
       </Routes>
 

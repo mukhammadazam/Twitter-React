@@ -1,17 +1,16 @@
-import { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Noti.scss';
-import { FetchContext } from '../context/FitchConbonet';
-const Notifications = (e) => {
-const {data}=useContext(FetchContext);
-const [togle,setTogle]=useState('All');
+import { useContext, useState } from "react";
+import { Link } from "react-router-dom";
+import { FetchContext } from "../context/FitchConbonet";
+import './Verified.scss'
+const Verified = () => {
+    const [togle,setTogle]=useState('Verified');
+    const {data}=useContext(FetchContext);
 const togleFun=(e)=>{
   setTogle(e)
 }
-
-return (
-<div className='d-block'>
-<div className='div'>
+  return (
+    <div>
+        <div className='div'>
  <div className="bground">
  <h1 className='div__title'>Notifications</h1>
 <div className="button bg-light d-flex">
@@ -30,11 +29,21 @@ return (
 </div>
  </div>
   </div>
-  <div className="All ps-5 pt-5">
-   <p className='pt-5 fs-5'>There was a login to your account <Link className='text-decoration-none' to='https://twitter.com/notifications'>@MuhammadazamRi5</Link> from a new <br /> device on 29 мар. 2023 г.. Review it now.</p>
-  </div>
+  <div className="">
+{
+data.slice(98,99).map((el,index)=>(
+<div key={index} className="data">
+<img className="d-block w-100 " src={el.urlToImage} alt={el.url} />
+<h5 className="pt-3 px-3 text-center">{el.title}</h5>
+<p className="px-3 text-center ">Likes, mentions, Retweets, and a whole lot more — when it comes from a verified account, you’ll find it here.</p>
+<Link target="_blank" to='https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts' className="fs-5 text-dark d-block text-center"> Learn more</Link>
+
 </div>
+))
+}
+  </div>
+    </div>
   )
 }
 
-export default Notifications
+export default Verified

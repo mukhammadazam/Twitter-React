@@ -5,6 +5,9 @@ const Following = () => {
   const [search, setSearch]=useState('')
   const [follow, setfollow]=useState('');
   const [follow1, setfollow1]=useState('');
+
+
+
   const followFun=(e)=>{
     return setfollow(e);
   }
@@ -20,8 +23,12 @@ const filterFun=data.filter((value1)=>{
 
     <img className="Element__img" src={Element.urlToImage} alt={Element.url} />
     <h3 className="Element__title">{Element.title.slice(0,20)}</h3>
-    <button onClick={(e)=>setfollow(index)} className={`Element__btn ${follow === index ? 'd-block' : 'd-none'}`}>Follow</button>
+    <button onClick={(e)=>setfollow(p => index)} className={`Element__btn ${follow === index ? 'd-block' : 'd-none'}`}>Follow</button>
     <button onClick={(e)=>setfollow(index)} className={`Element__btn ${follow===index ? 'd-none' : ''}`}>Following</button>
+
+
+ 
+
   </div>
 ))
     return (

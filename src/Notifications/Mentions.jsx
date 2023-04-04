@@ -1,16 +1,14 @@
-import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
-import { FetchContext } from "../context/FitchConbonet";
+import { useState } from "react"
 import './Verified.scss'
-const Verified = () => {
-    const [togle,setTogle]=useState('Verified');
-    const {data}=useContext(FetchContext);
+import { Link } from "react-router-dom";
+const Mentions = () => {
+    const [togle,setTogle]=useState('Mentions');
 const togleFun=(e)=>{
   setTogle(e)
 }
   return (
     <div>
-        <div className='div'>
+              <div className='div'>
  <div className="bground">
  <h1 className='div__title'>Notifications</h1>
 <div className="button bg-light d-flex">
@@ -29,21 +27,12 @@ const togleFun=(e)=>{
 </div>
  </div>
   </div>
-  <div className="">
-{
-data.slice(98,99).map((el,index)=>(
-<div key={index} className="data">
-<img className="d-block w-100 " src={el.urlToImage} alt={el.url} />
-<h5 className="pt-3 px-3 text-center">{el.title}</h5>
-<p className="px-3 text-center ">Likes, mentions, Retweets, and a whole lot more — when it comes from a verified account, you’ll find it here.</p>
-<Link target="_blank" to='https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts' className="fs-5 text-dark d-block text-center"> Learn more</Link>
-
-</div>
-))
-}
+  <div className="pt-5 men">
+    <p className="men__title fs-bold m-0 px-3 pt-5">Nothing to see here — yet</p>
+    <p className="fs-4 px-5"> When someone mentions you, you’ll find it here.</p>
   </div>
     </div>
   )
 }
 
-export default Verified
+export default Mentions

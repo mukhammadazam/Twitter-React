@@ -3,3 +3,11 @@
     width: 100%;
     margin: 0 auto;
 }
+.men{
+    max-width: 650px;
+    margin: 0 auto;
+    &__title{
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

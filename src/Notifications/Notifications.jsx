@@ -24,7 +24,7 @@ return (
   <span className={`d-block  ${togle === 'Verified' ? 'leni' : ''}`}></span>
   </button>
   <button onClick={()=>setTogle('Mentions')} className={`d-block  button__btn4 ${togle === 'Mentions' ? 'bg-light' : ''}`}>
-  <Link className='text-decoration-none button__btn4 text-dark'>Mentions</Link>
+  <Link to='/men' className='text-decoration-none button__btn4 text-dark'>Mentions</Link>
   <span className={`d-block  ${togle === 'Mentions' ? 'leni' : ''}`}></span>
   </button>
 </div>

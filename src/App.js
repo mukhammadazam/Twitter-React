@@ -13,7 +13,10 @@ import More from './More/More';
 import Fetch from './conbanent/Fetch';
 import Followers from './Profile/Followers';
 import Following from './Profile/Following';
+// import Register from './register/Register';
+// import Login from './Login/Login';
 function App() {
+  const url=process.env.REACT_APP_BASE_URL;
   return (
     <div className='container pt-3 d-flex justify-content-lg-between'>
       <LeftSahifa />

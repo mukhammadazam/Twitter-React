@@ -23,7 +23,7 @@ const filterFun=data.filter((value1)=>{
     <button onClick={(e)=>setfollow(index)} className={`Element__btn ${follow === index ? 'd-block' : 'd-none'}`}>Following</button>
     <button onClick={(e)=>setfollow(index)} className={`Element__btn ${follow===index ? 'd-none' : ''}`}>Followers</button>
   </div>
-))
+))                                                                                                                            
     return (
     <div >
       <input onChange={(evt)=>setSearch(evt.target.value)}  type="text" placeholder="Search twitter" className="border-end-0 input d-block border-start-0 border-top-0 border-bottom-2" />

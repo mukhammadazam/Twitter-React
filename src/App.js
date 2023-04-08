@@ -14,8 +14,8 @@ import Followers from "./Profile/Followers";
 import Following from "./Profile/Following";
 import Verified from "./Notifications/Verified";
 import Mentions from "./Notifications/Mentions";
-// import Register from './register/Register';
-// import Login from './Login/Login';
+import Register from './register/Register';
+import Login from './Login/Login';
 function App() {
   return (
     <div className='container pt-3 d-flex justify-content-lg-between'>
